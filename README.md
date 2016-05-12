@@ -17,5 +17,10 @@ You can make an applescript or a windows batch file and then have HomeBridge run
 
 Instead of just running some programs, you can make your own Java program that will take arguments and do something with them. For example, you can make a Java app called "Bulby.jar" which will use gpio commands such as "gpio pwm <pin> <value>" to adjust the brightness of an LED pin.
 
-To pass arguments to your Bulby app, you need to use #BRIGHTNESS# in your command line when creating the accessory, like this:
-![alt tag](http://i.imgur.com/osurTZ6.png)
+When creating a new accessory and setting the command which will be executed when user changes brightness, type this:
+
+![alt tag](http://i.imgur.com/ci4NLNh.png)
+
+# Updating HomeBridge
+
+When
