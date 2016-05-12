@@ -1,5 +1,7 @@
 # HomeBridge
 
+![alt tag](http://i.imgur.com/6aprujn.png)
+
 HomeBridge is a Java app which allows you to create virtual HomeKit accessories that you can pair with your iPhone or iPad and use them to execute CommandPrompt/Terminal commands. Currently supported accessories are Switch, Lightbulb and Thermostat. When adding a new accessory, you specify command for each event (like turn on event, or changing brightness event).
 
 >Say "Turn on my bedroom radio" to Siri
