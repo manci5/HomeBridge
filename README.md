@@ -18,11 +18,11 @@ You can make an applescript or a windows batch file and then have HomeBridge run
 
 Instead of just running some programs, you can make your own Java program that will take arguments and do something with them. For example, you can make a Java app called "Bulby.jar" which will execute gpio commands such as "gpio pwm pin value" to adjust the brightness of an LED pin.
 
-To supply Bulby.jar with the brightness value, you type this:
+To do so, click "New Accessory", enter new accessory name and type, and then for the brighness command enter this:
 
 ![alt tag](http://i.imgur.com/ci4NLNh.png)
 
-For a thermostat, use #TEMPERATURE#.
+For a thermostat, use #TEMPERATURE# instead of #BRIGHTNESS#.
 
 # Updating HomeBridge
 
