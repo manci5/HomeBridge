@@ -29,16 +29,16 @@ For a thermostat, use #TEMPERATURE# instead of #BRIGHTNESS#. This is of course j
 So you use Bulby.jar to set the brighntess of the LED on your Raspberry Pi... But you will also need to make another Java app that will run in the background and watch the power state of that LED (and maybe even change it sometimes). When power state changes, you will need to have your background app report that to HomeBridge and Siri. To do so, simply execute a Terminal/CommandPrompt command like this to let HomeBridge (and Siri) know what changed.
 
 Thermostat:
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 123423 temperature 24 
+> java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 123423 temperature 24 
 
 Switch:
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 on
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 off
+> java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 on
+> java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 off
 
 Lightbulb:
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 454545 brightness 90
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 454545 on
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 454545 off
+> java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 454545 brightness 90
+> java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 454545 on
+> java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 454545 off
 
 The number after "update" is the ID of the accessory. For Mac, the location of HomeUpdater.jar is inside HomeBridge.app/Contents.
 
