@@ -22,7 +22,7 @@ For example,when creating a new accessory and setting the command which will be 
 
 # Updating HomeBridge
 
-If you have a thermostat hooked up to your Raspberry Pi, you need to tell HomeBridge when temperature changes. To do that, you run this simple "java -jar" commands like these:
+If you have a thermostat or bulb hooked up to your Raspberry Pi, you need to tell HomeBridge whenever temperature or brightness change. To do that, you run a simple "java -jar" command like one of these:
 
 >java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 123423 temperature 25
 
