@@ -38,6 +38,6 @@ So you use Bulby.jar to set the brighntess of the LED on your Raspberry Pi... Bu
 
 The number after "update" is the ID of the accessory. For Mac, the location of HomeUpdater.jar is inside HomeBridge.app/Contents.
 
-Notice: I don't know how to send arguments to an app that is already running. For me Bulby.jar would be just a simple app which takes the arguments such as "update temperature 25", does the work with it and then quits. Then I would just make another app that would be running in background all the time checking on sensors and reporting back to HomeUpdater when needed.
+Notice: I don't know how to send arguments to an app that is already running. For me Bulby.jar would be just a simple app which takes the arguments such as "update temperature 25", does the work with it and then quits. Then I would make another app that would be running in background all the time checking on sensors and reporting back to HomeUpdater when needed.
 
 
