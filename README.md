@@ -14,4 +14,5 @@ You can make an applescript or a windows batch file and then have HomeBridge run
 You can even make a Java app which will then take arguments like #BRIGHTNESS# or #TEMPERATURE#
 
 >Say "Set temperature in living room to 25 degrees"
+
 >-> HomeBridge executes: "java -jar /Applications/thermostat.jar updatetemperature #TEMPERATURE#"
