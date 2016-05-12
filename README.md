@@ -22,7 +22,7 @@ For example,when creating a new accessory and setting the command which will be 
 
 # Updating HomeBridge
 
-If you have a thermostat or bulb hooked up to your Raspberry Pi, you need to tell HomeBridge whenever temperature or brightness change. To do that, you run a simple "java -jar" command like one of these:
+So you use Bulby.jar to set the brighntess of the LED on your Raspberry Pi. But you will also need to make another Java app that will run in the background and watch the power state of that LED (and maybe even change it sometimes). When power state changes, you will need to have your background app report that to HomeBridge and Siri. To do so, simply execute a command like this to let HomeBridge (and Siri) know what changed. In Java you can use Runtime.getRuntime().exec("/bin/bash -c"+commandString)), where commandString is one of these:
 
 >java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 123423 temperature 24 (thermostat)
 
@@ -32,7 +32,6 @@ If you have a thermostat or bulb hooked up to your Raspberry Pi, you need to tel
 
 >java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 brightness 90 (lightbulb)
 
-The number after "update" is the ID of the accessory which is randomly generated for each newly added accessory.
+The number after "update" is the ID of the accessory which is randomly generated for each newly added accessory. As you can see, in Mac version, the HomeUpdater.jar can be found inside HomeBridge.app/Contents. 
 
-As you can see, in Mac version, the HomeUpdater.jar can be found inside HomeBridge.app/Contents. 
 
