@@ -1,7 +1,6 @@
 # HomeBridge
-Java made application for setting up virtual HomeKit accessories to be able to control them like any real HomeKit device.
 
-Currently it can only perform a command line such as:
+HomeBridge is a Java app made for Windows, Mac and Linux which creates virtual HomeKit accessories that you can pair with your iPhone or iPad. Currently supported accessories are Switch, Lightbulb and Thermostat. When adding a new accessory, you specify commands which will be executed for an event, for instance turning on a Switch accessory or changing temperature of some Thermostat accessory.
 
 >Say "Turn on my bedroom radio" to Siri
 
