@@ -47,4 +47,6 @@ The number after "update" is the ID of the accessory. For Mac, the location of H
 
 Notice: I don't know how to send arguments to an app that is already running. For me Bulby.jar would be just a simple app which takes the arguments such as "update temperature 25", does the work with it and then quits. Then I would make another app that would be running in background all the time checking on sensors and reporting back to HomeUpdater when needed.
 
+# Running in background
 
+After pairing and setting up the acceessories, make sure to add HomeBridge to your Login Items / StartUp Programs. To run HomeBridge in the background (no window popping up), go to your Documents folder, open HBConfig.txt and change starthidden to =yes. You won't be able to add new accessories until you set this back to =no and reset HomeBridge.
