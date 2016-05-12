@@ -24,15 +24,15 @@ For example,when creating a new accessory and setting the command which will be 
 
 If you have a thermostat or bulb hooked up to your Raspberry Pi, you need to tell HomeBridge whenever temperature or brightness change. To do that, you run a simple "java -jar" command like one of these:
 
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 123423 temperature 25
+>java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 123423 temperature 24 (thermostat)
 
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 on
+>java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 on (switch or lightbulb)
 
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 off
+>java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 off (switch or lightbulb)
 
->java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 brightness 75
+>java -jar /Applications/HomeBridge.app/Contents/HomeUpdater.jar update 789778 brightness 90 (lightbulb)
 
-Both Switches and Lightbulbs use the "on" or "off" commands. Lightbulb also uses "brightness 100", and Thermostat uses only "temperature 22" commands. These number can of course be changed to anything you want.
+The number after "update" is the ID of the accessory which is randomly generated for each newly added accessory.
 
-As you can see, in Mac version, the HomeUpdater.jar is inside HomeBridge.app/Contents. 
+As you can see, in Mac version, the HomeUpdater.jar can be found inside HomeBridge.app/Contents. 
 
