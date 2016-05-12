@@ -24,7 +24,7 @@ To do so, click "New Accessory", enter new accessory name and type, and then for
 
 For a thermostat, use #TEMPERATURE# instead of #BRIGHTNESS#.
 
-# Updating HomeBridge
+# Reporting back
 
 So you use Bulby.jar to set the brighntess of the LED on your Raspberry Pi. But you will also need to make another Java app that will run in the background and watch the power state of that LED (and maybe even change it sometimes). When power state changes, you will need to have your background app report that to HomeBridge and Siri. To do so, simply execute a Terminal/CommandPrompt command like this to let HomeBridge (and Siri) know what changed.
 
