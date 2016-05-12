@@ -16,13 +16,13 @@ You can make an applescript or a windows batch file and then have HomeBridge run
 
 # Raspberry Pi
 
-Instead of just running some programs, you can make your own Java program that will take arguments and do something with them. For example, you can make a Java app called "Bulby.jar" which will execute gpio commands such as "gpio pwm pin value" to adjust the brightness of an LED pin.
+Instead of just running some programs, you can make your own Java program that will take arguments and do something with them. For example, you can make a Java app called "Bulby.jar" which will execute gpio commands on Raspberry Pi such as "gpio pwm pin value" to adjust the brightness of an LED pin.
 
 To do so, click "New Accessory", enter new accessory name and type, and then for the brighness command enter this:
 
 ![alt tag](http://i.imgur.com/ci4NLNh.png)
 
-For a thermostat, use #TEMPERATURE# instead of #BRIGHTNESS#.
+For a thermostat, use #TEMPERATURE# instead of #BRIGHTNESS#. This is of course just an example. You could make Bulby accept just the number (without "-updateTemperature" argument before), if it always deals with just brightness.
 
 # Reporting back
 
